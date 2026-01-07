@@ -1,18 +1,9 @@
 #!/usr/bin/env python
-"""
-| File: 2_px4_multi_vehicle.py
-| Author: Marcelo Jacinto (marcelo.jacinto@tecnico.ulisboa.pt)
-| License: BSD-3-Clause. Copyright (c) 2023, Marcelo Jacinto. All rights reserved.
-| Description: This files serves as an example on how to build an app that makes use of the Pegasus API to run a simulation with multiple vehicles, controlled using the MAVLink control backend.
-"""
 
 # Imports to start Isaac Sim from this script
 import carb
 from isaacsim import SimulationApp
 
-# Start Isaac Sim's simulation environment
-# Note: this simulation app must be instantiated right after the SimulationApp import, otherwise the simulator will crash
-# as this is the object that will load all the extensions and load the actual simulator.
 #simulation_app = SimulationApp({"headless": False})
 simulation_app = SimulationApp({
     "headless": False,
