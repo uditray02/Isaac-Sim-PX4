@@ -125,13 +125,10 @@ isaac_run --help
 # Run the simulator
 isaac_run
 ```
-### d. Installing the drone simulator(Pegasus)
+### d. Installing the drone simulator(Any Drone Sim compatible with Isaac
 ```bash
-git clone https://github.com/PegasusSimulator/PegasusSimulator.git
-
 Then add the SIMULATOR inside ISAAC SIM by going to the Extensions Tab and enabling it
 ```
-
 
 # Step 2 : Installation of PX4-Autopilot
 
