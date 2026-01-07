@@ -168,7 +168,7 @@ chmod +x link_app.sh
 ./link_app.sh --path $ISAACSIM_PATH
 
 Verify : ls -l
-Run: ./app/isaac-sim.sh --ext-folder extensions --enable pegasus.simulator 
+Run: ./app/isaac-sim.sh --ext-folder extensions --enable {name_of_the_sim}.simulator 
 
 ```
 # Step 4 : Install QGroundControl for Linux (AppImage)
